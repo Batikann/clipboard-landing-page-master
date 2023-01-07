@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    nav{
+        @apply py-20
+    }
+    .nav-div{
+        @apply text-center flex flex-col justify-center items-center relative p-10
+    }
+
+    .header{
+        @apply text-4xl max-[540px]:text-3xl font-semibold text-d_blue font-bai mt-8 mb-4
+    }
+
+    .nav-text{
+        @apply max-w-xl text-lg text-g_blue font-bai font-normal mb-8
+    }
+
+    .btn{
+        @apply text-white text-sm font-semibold font-bai md:py-3 py-4 px-12 rounded-full shadow-2xl cursor-pointer max-[540px]:w-full max-[280px]:text-xs
+    }
+
+    .btn-1{
+        @apply bg-s_cyan hover:opacity-70
+    }
+
+    .btn-2{
+        @apply bg-l_blue md:ml-4 ml-0 hover:opacity-70
+    }
+
+    .section-1{
+        @apply text-center flex flex-col justify-center items-center mt-12 p-10
+    }
+
+    .section-1-header{
+        @apply text-3xl font-bai font-semibold text-d_blue mb-6
+    }
+
+    .section-1-text{
+        @apply text-lg font-bai font-normal text-g_blue max-w-3xl
+    }
+
+    .section-2{
+        @apply grid md:grid-cols-2 gap-16 my-20 p-10 grid-cols-1
+    }
+
+    .section-2-ul{
+        @apply grid grid-cols-1 gap-10 max-[514px]:text-center
+    }
+
+    .section-2-header,
+    .section-3-header,
+    .section-4-header{
+        @apply text-xl font-bai font-semibold text-d_blue mb-2
+    }
+
+    .section-2-text{
+        @apply text-lg font-bai font-normal text-g_blue max-w-sm
+    }
+    
+    .section-3{
+        @apply text-center flex justify-center items-center flex-col p-10
+    }
+
+    .section-3-header{
+        @apply max-[514px]:text-3xl
+    }
+
+    .section-3-text{
+        @apply text-lg font-bai font-normal text-g_blue max-w-2xl
+    }
+
+    .section-4{
+        @apply flex my-24 justify-center lg:p-10 p-5
+    }
+
+    .section-4-text{
+        @apply text-base font-bai font-normal text-g_blue max-w-xs text-center
+    }
+
+    .section-4-ul{
+        @apply grid md:grid-cols-3 lg:gap-14 grid-cols-1 gap-5 max-[540px]:gap-10
+    }
+
+    .section-4-li{
+        @apply flex flex-col justify-center items-center
+    }
+
+    .section-4-img{
+        @apply mb-8
+    }
+
+    .section-5{
+        @apply flex my-48 justify-center lg:p-10 p-8
+    }
+
+    .section-5-ul{
+        @apply grid md:grid-cols-5 md:gap-10 lg:gap-24 grid-cols-1 gap-y-28
+    }
+
+    .section-6{
+        @apply flex flex-col justify-center text-center items-center p-10
+    }
+
+    .section-6-header{
+        @apply text-3xl text-d_blue font-bai font-semibold
+    }
+
+    .section-6-text{
+        @apply text-lg text-g_blue font-bai max-w-2xl mt-4 my-8
+    }
+
+    .footer{
+        @apply bg-slate-100 md:flex  items-center  justify-between py-10  mt-48 px-32 max-[1024px]:px-16 max-[768px]:px-10
+    }
+
+    .link{
+        @apply w-5 h-5
+    }
+
+    .a-link{
+        @apply block font-bai text-d_blue font-semibold text-base mt-3
+    }
+    .form-1{
+        @apply grid grid-cols-1 gap-6 w-full p-10
+    }
+
+    .form-2{
+        @apply grid grid-cols-1 gap-6 w-full
+    }
+
+    .link-2{
+        @apply block font-bai text-d_blue font-normal mb-2 max-[540px]:text-center max-[540px]:mb-4 cursor-pointer hover:underline hover:underline-offset-4 
+    }
+
+
+
+    
+}
